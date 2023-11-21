@@ -1,0 +1,20 @@
+{
+  "DATABASE": {
+    "ERROR_CONNECTING": "error connecting database",
+    "CONNECTED": "Database Connection Established",
+    "SYNC":"Yes re-sync done!",
+    "ERROR_SYNC" : "Error while sync the database."
+  },
+
+  "USER": {
+    "NO_FEED_BACK": "No Feed Back :(",
+    "USER_NOT_FOUND": "User Not Found",
+    "WRONG_CREDENTIAL": "Wrong Credential",
+    "USER_EXIST": "User Exist",
+    "USER_CREATED": "User Created",
+    "HASING_ERROR":"Error while hashing the password.",
+    "USER_DELETED":"User is deleted !",
+    "UPADTE_USER":"User updated sucessfully.",
+    "LOGIN_SUCCESSFULL":"Login Successfull"
+  }
+}
