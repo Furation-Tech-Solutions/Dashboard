@@ -9,7 +9,9 @@ app.use(cors("*"));
 
 // routers
 const router = require("./route/userRoute.js");
+const roleRouter = require("./route/roleRoute.js");
 app.use("/api/user", router);
+app.use("/api/role", roleRouter);
 
 // testing for api
 app.get("/", (req, res) => {

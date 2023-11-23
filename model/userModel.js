@@ -19,6 +19,10 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.JSON,
       defaultValue: [],
     },
+    token: {
+      type: DataTypes.STRING,
+      defaultValue: "",
+    },
   });
 
   return User;

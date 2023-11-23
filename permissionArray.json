@@ -1,0 +1,7 @@
+[
+  { "101": "Add user" },
+  { "201": "Delete user" },
+  { "301": "Update user" },
+  { "401": "View user" },
+  { "501": "Add role" }
+]

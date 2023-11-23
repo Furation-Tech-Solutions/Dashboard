@@ -31,6 +31,7 @@ db.sequelize = sequelize;
 // createing table
 // db.dashboard = require("./dashboardModel.js")(sequelize, DataTypes);
 db.users = require("./userModel.js")(sequelize, DataTypes);
+db.roles = require("./roleModel.js")(sequelize, DataTypes);
 
 db.sequelize
   .sync({ force: false })

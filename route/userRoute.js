@@ -14,6 +14,7 @@ router.post(
   checkPermission(["101"]),
   userController.addUser
 );
+
 router.post("/login", userController.login);
 router.get(
   "/",
@@ -30,6 +31,7 @@ router.put(
   checkPermission(["301"]),
   userController.updateUser
 );
+
 router.delete(
   "/:id",
   authMiddleware,
@@ -37,6 +39,8 @@ router.delete(
   userController.deleteUser
 );
 
-router.get("/access", authMiddleware, userController.accessPoint);
+router.post("/forgetPassword", userController.forgetPassword);
+
+router.post("/reset-password", userController.resetPassword);
 
 module.exports = router;
