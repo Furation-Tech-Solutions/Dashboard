@@ -15,7 +15,7 @@ const sendResetPasswordMail = async (firstName, email, token) => {
       requireTLS: true,
       auth: {
         user: "sonu.kumar@furation.tech",
-        pass: "pnsqvnxfusxdhavq",
+        pass: "",
       },
     });
 
@@ -46,7 +46,7 @@ const sendEmailAndPassword = async (firstName, email, password) => {
       requireTLS: true,
       auth: {
         user: "sonu.kumar@furation.tech",
-        pass: "pnsqvnxfusxdhavq",
+        pass: "",
       },
     });
 
